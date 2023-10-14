@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping - Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container main-color">
+            <div>
+                <a class="navbar-brand main-color fw-bold" href="#">Online Shopping</a>
+            </div>
+            <div class="name main-color d-none">
+                <h4 class="m-0">Welcome Name</h4>
+            </div>
+            <div class="d-flex gap-3">
+                <a class="nav-link main-color fw-bold" href="#">Login</a>
+                <a class="nav-link main-color fw-bold" href="#">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- form -->
+
+    <div class="form my-4 sort">
+        <div class="container d-flex gap-4">
+            <select id="sort-type" class="form-select" aria-label="Default select example">
+                <option value="name">Sort by Name</option>
+                <option value="cat">Sort by Category</option>
+            </select>
+            <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- products -->
+
+    <div class="products my-4">
+        <div class="container">
+            <div class="row" id="data-container">
+
+                <!-- data from json file using js  -->
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ffb45ac8d1.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
