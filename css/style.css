@@ -40,6 +40,11 @@ nav {
     color: grey;
 }
 
+.card i.red {
+    color: red;
+}
+
+
 .card:hover {
     border-color: var(--main-color);
     transform: translateY(-10px);

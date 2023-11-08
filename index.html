@@ -16,14 +16,30 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container main-color">
             <div>
-                <a class="navbar-brand main-color fw-bold" href="#">Online Shopping</a>
+                <a class="navbar-brand main-color fw-bold mx-0" href="#">Online Shopping</a>
             </div>
-            <div class="name main-color d-none">
-                <h4 class="m-0">Welcome Name</h4>
+            <div id="username" class="name main-color">
+                <h4 id="welcome" class="m-0">Welcome</h4>
             </div>
-            <div class="d-flex gap-3">
-                <a class="nav-link main-color fw-bold" href="#">Login</a>
-                <a class="nav-link main-color fw-bold" href="#">Register</a>
+            <div id="login" class="gap-3">
+                <a class="nav-link main-color fw-bold" href="pages/login.html">Login</a>
+                <a class="nav-link main-color fw-bold" href="pages/register.html">Register</a>
+            </div>
+            <div id="logout" class="gap-3">
+                <div class="dropdown">
+                    <a class="nav-link main-color fw-bold dropdown-toggle" href="#" id="cart" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Cart</a>
+                    <ul class="dropdown-menu" id="#cartItemsDD">
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li><a class="nav-link main-color text-center" href="pages/cart.html">View all products</a></li>
+                    </ul>
+                </div>
+                <a class="nav-link main-color fw-bold" href="#" id="logoutBtn">Logout</a>
             </div>
         </div>
     </nav>

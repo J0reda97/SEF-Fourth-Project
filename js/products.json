@@ -1,53 +1,62 @@
 [
   {
+    "id": 1,
     "name": "T-shirt",
     "price": "80$",
     "category": "Fashion",
     "imgSrc": "imgs/tshirt.webp"
   },
   {
+    "id": 2,
     "name": "Earpods",
     "price": "150$",
     "category": "Phone",
     "imgSrc": "imgs/adi-true-01_1.jpg"
   },
   {
+    "id": 3,
     "name": "Jacket",
     "price": "120$",
     "category": "Fashion",
     "imgSrc": "imgs/jacket.avif"
   },
   {
+    "id": 4,
     "name": "Glasses",
     "price": "80$",
     "category": "Accessories",
     "imgSrc": "imgs/glasses.webp"
   },
   {
+    "id": 5,
     "name": "Bottle",
     "price": "50$",
     "category": "Sport",
     "imgSrc": "imgs/bottle.jpg"
   },
   {
+    "id": 6,
     "name": "Cap",
     "price": "20$",
     "category": "Accessories",
     "imgSrc": "imgs/cap.jpg"
   },
   {
+    "id": 7,
     "name": "Bag adidas",
     "price": "110$",
     "category": "Bags",
     "imgSrc": "imgs/bag men.jpg"
   },
   {
+    "id": 8,
     "name": "Shoes",
     "price": "80$",
     "category": "Sport",
     "imgSrc": "imgs/shoes.jpg"
   },
   {
+    "id": 9,
     "name": "Woman Bag",
     "price": "100$",
     "category": "Accessories",
